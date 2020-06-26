@@ -31,7 +31,8 @@ class Robot
             $this->err = 1;
             $this->err_msg[] = "Can't place wallie on table top of 5X5";
         }
-
+        
+        $face = strtoupper($face);
         if (!in_array($face, $this->permissible_face_value)) {
             $this->err = 1;
             $this->err_msg[] = "Can't place wallie on table top of 5X5";
