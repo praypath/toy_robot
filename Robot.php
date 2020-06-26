@@ -9,7 +9,7 @@ class Robot
     private $face = null; // direction where robot is facing
     private $move = null; // left, right rotation
 
-    private $permissible_axis_value = array('0', '1', '2', '4', '5');
+    private $permissible_axis_value = array('0', '1', '2', '4');
     private $permissible_face_value = array('NORTH', 'SOUTH', 'EAST', 'WEST');
     private $permissible_move_direction_value = array('LEFT', 'RIGHT');
 
